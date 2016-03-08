@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* 内外边距通常让各浏览器样式的表现位置不同 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,pre,code,blockquote,a,img,dl,dt,dd,ol,ul,li,fieldset,form,input,textarea,label,legend,table,tr,th,td,hr,buttoncaption,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+/* 防止用户自定义背景颜色对页面的影响 */
+html{ background-color:#FFF;color:#333;}
+body{ width:100%;font:12px/1.5 Microsoft YaHei, sans-serif; color:#333;background:#f5f9fc;}
+
+.banner{
+  height:480px;
+  width:100%;
+  position: relative;
+  background:url("../image/banner.jpg") 50% 50% no-repeat;
+}
+.banner .logo{
+  height:60px;
+  width:100%;
+  background:rgba(255,255,255,0.8);
+}
+.logo-container{
+  width:960px;
+  margin:0px auto;
+}
+.login-container{
+  width:960px;
+  margin:0px auto;
+  position: relative;
+  height:420px;
+}
+.login-area{
+  width:360px;
+  height:320px;
+  background: #fff;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+.login-tab{
+  height:49px;
+}
+.login-tab li{
+  display: block;
+  background: #ecf0f1;
+  height: 49px;
+  border-bottom: #d7e3f1 1px solid;
+  width: 50%;
+  float: left;
+  line-height: 49px;
+  text-align: center;
+  color: #888888;
+  font-size: 14px;
+  cursor: pointer;
+}
+.login-tab li.active{
+  background:#fff;
+  font-size:14px;
+  font-weight: bold;
+  color:#2c97de;
+  border-bottom:#fff 1px solid;
+}
+.login-border{
+  padding:30px 40px 0px;
+}
+.login-name{
+  height:38px;
+  border:#ecf0f1 1px solid;
+  line-height: 40px;
+  border-radius: 3px;
+  width:100%;
+  background:url("../image/user.png") 10px 50% no-repeat;
+  text-indent: 28px;
+  color:#bdc3c7;
+  font-size:15px;
+}
+.login-code{
+  height:38px;
+  border:#ecf0f1 1px solid;
+  line-height: 40px;
+  border-radius: 3px;
+  width:180px;
+  background:url("../image/code.png") 10px 50% no-repeat;
+  text-indent: 28px;
+  color:#bdc3c7;
+  font-size:15px;
+  margin-top:10px;
+}
+.login-password{
+  height:38px;
+  border:#ecf0f1 1px solid;
+  line-height: 40px;
+  border-radius: 3px;
+  width:100%;
+  background:url("../image/lock.png") 10px 50% no-repeat;
+  text-indent: 28px;
+  color:#bdc3c7;
+  font-size:15px;
+  margin-top:10px;
+}
+.loginBtn{
+  height:38px;
+  border:none;
+  line-height: 40px;
+  border-radius: 3px;
+  width:100%;
+  background: #2c97de;
+  text-align: center;
+  color:#fff;
+  font-size:15px;
+  margin-top:10px;
+}
+.login-info{
+  padding:7px 0px;
+  width: 100%;
+  font-size: 13px
+}
+.register{
+  color:#2c97de;
+}
+.forget{
+  color:#2c97de;
+  float: right
+}
+.purchase-scroll{
+  height:50px;
+  background:#fff;
+}
+.purchase-area{
+  width:960px;
+  margin:0px auto;
+  height:50px;
+  position: relative;
+}
+.gmtit{
+  background: url("../image/speaker.png") left no-repeat;
+  text-indent: 30px;
+  float: left;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 46px;
+  color: #333;
+  padding-right: 18px;
+  font-size: 14px;
+}
+.gmlist {
+  position: absolute;
+  left: 90px;
+  top: 0;
+  width: 80%;
+  height: 50px;
+  line-height:46px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.gmlist ul {
+  float: none;
+  display: block;
+  padding: 0px;
+}
+.gmlist ul li {
+  float: left;
+  display: inline;
+  width: 100%;
+  height: 46px;
+  overflow: hidden;
+  position: relative;
+}
+.gmlist ul li a {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  height: 46px;
+  line-height: 46px;
+  color: #666;
+  position: relative;
+}
+.gmdate{
+  margin-right:10px;
+}
+.more-btn{
+  width:52px;
+  height:22px;
+  position: absolute;
+  top:50%;
+  right:20px;
+  margin-top:-11px;
+  background:url("../image/more-btn.png") no-repeat;
+  line-height:22px;
+  padding-left:8px;
+}
+.container{
+  width:960px;
+  margin:20px auto ;
+}
+.left-area{
+  width:640px;
+  float:left;
+}
+.notice-tit{
+  height:48px;
+  line-height:48px;
+  border:#d7e3f1 1px solid;
+  text-indent: 20px;
+  color:#2c97de;
+  font-size:14px;
+  font-weight: bold
+}
+.notice-con{
+  background:#fff;
+  border: #d7e3f1 1px solid;
+  border-top: none;
+}
+.notice-con ul li{
+  height:60px;
+  line-height:60px;
+  padding:0px 20px;
+  position: relative;
+}
+.notice-con ul li a.notice-title{
+  font-size:14px;
+  color:#585859;
+  width: 60%;
+  display: inline-block;
+}
+.download{
+  background: url("../image/pdf-down.png") no-repeat;
+  width:80px;
+  height:30px;
+  display: block;
+  position: absolute;
+  right:20px;
+  top:50%;
+  margin-top:-15px;
+}
+.notice-more{
+  float: right;
+  font-size: 12px;
+  color:#888888;
+  font-weight: normal;
+  padding-right:25px;
+}
+
+.right-area{
+  width:300px;
+  float: right;
+}
+.news-title{
+  height:48px;
+  line-height:48px;
+  border-bottom:#d7e3f1 1px solid;
+  text-indent: 20px;
+  color:#2c97de;
+  font-size:14px;
+  font-weight: bold
+}
+.news-con{
+  background:#fff;
+  padding:17px 20px;
+}
+.news-con ul li{
+  margin-bottom:10px;
+}
+.news-con ul li p{
+  line-height: 20px;
+}
+.news-area{
+  border:#d7e3f1 1px solid;
+}
+.system-area{
+  border: #d7e3f1 1px solid;
+  margin-top:20px;
+}
+.copyright{
+  background:#0067b2;
+  height:100px;
+  width:100%;
+}
+.copyright-con{
+  padding-top:35px;
+  width:960px;
+  margin:0px auto;
+}
+.copyright-con P{
+  text-align: center;
+  color:#c7d6e8;
+  font-size:13px;
+}
+.captcha-img{
+  top: 10px;
+  position: relative;
+  float: right;
+  margin-right: 3px;
+  width:86px;
+  height:38px;
+}

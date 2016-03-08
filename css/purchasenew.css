@@ -1,0 +1,205 @@
+@charset "UTF-8";
+.m-nav{
+  height:60px;
+  line-height: 60px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.m-nav .logo{
+  background: url("../image/logo.png") -6px 0px;
+  width: 340px;
+  height: 60px;
+  float: left;
+}
+.m-nav ul{
+  display: inline-block;
+  margin: 27px 0 0 50px;
+}
+.m-nav ul li{
+  float: left;
+  border-left: 1px solid #bec3c7;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 20px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  cursor: pointer;
+}
+.m-nav ul li.first{border-left: 0;}
+.m-nav ul li:hover{color:#0067b2;}
+.content{
+  margin:0 auto;
+  width:960px;
+  color:#666666;
+}
+.p-main{
+  background:url("../image/bg.jpg");
+  margin-top: 60px;
+  padding-bottom: 40px;
+  min-height: 779px;
+}
+.p-breadcrumb{
+  height:52px;
+  line-height: 52px;
+  color: #999;
+  padding-left: 5px;
+}
+.p-breadcrumb>span{float:left;}
+.p-breadcrumb ul{float:left;}
+.p-breadcrumb li{float:left;}
+.p-breadcrumb li>a{padding: 0 3px;}
+.p-breadcrumb li.active{color:#666;}
+.p-breadcrumb li.active>span{display: none;}
+.p-new-list{
+  border:1px solid #d7e3f1;
+  background: #fff;
+}
+.p-new-list .title{
+  background: #f6f9fe;
+  height:49px;
+  line-height: 49px;
+  border-bottom:1px solid #d7e3f1;
+}
+.p-new-list .title>span{
+  font-size: 14px;
+  font-family: "宋体";
+  color: #2c97de;
+  font-weight: 700;
+  padding-left: 20px;
+}
+.p-search{
+  float: right;
+  position: relative; 
+}
+.p-search>i{
+  position: absolute;
+  background: url("../image/icon.png") 22px 0px;
+  width: 22px;
+  height: 22px;
+  top: 15px;
+  right: 12px;
+  cursor: pointer;
+}
+.p-search-inp{
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #d7e3f1;
+  margin-right: 10px;
+  padding: 0px 24px 0 10px;
+  border-radius: 3px;
+  width: 196px;
+}
+.p-new-list>ul{margin: 0 10px;}
+.p-new-list>ul>li{
+  height:59px;
+  line-height: 59px;
+  border-bottom: 1px solid #f7f7f7;
+  position: relative;
+  font-family: "宋体";
+  font-size: 12px;
+}
+.picon-pdf{
+  background: url("../image/icon.png") 0 22px;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  left: 9px;
+}
+.p-new-list-content{
+  width: 740px;
+  float: left;
+  margin-left: 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+.p-new-list-date{
+  width: 140px;
+  float: right;
+}
+.p-new-list .bot{
+  height: 59px;
+}
+.pagination{
+  float: right;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+.pagination>li {
+  position: relative;
+  float: left;
+  margin: 0 2px;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  padding: 2px 6px;
+  color: #666666;
+}
+.pagination>li.active{
+  background-color: #0067b2;
+  border: 1px solid #0067b2;
+  color: #ffffff;
+}
+.pagination>li:hover {
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination>li.active:hover{
+  background-color: #0067b2;
+  border: 1px solid #0067b2;
+  color: #ffffff;
+}
+.p-bot{
+  height:100px;
+  background: #0067b2;
+}
+.pagination-licon,.pagination-ricon{height: 18px;width: 8px;}
+.pagination-licon>a{
+  background: url(../image/pagination_icon.png);
+  width: 8px;
+  height: 5px;
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  top: 8px;
+}
+.pagination-ricon>a{
+  background: url(../image/pagination_icon.png) 29px 0;
+  width: 8px;
+  height: 5px;
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  top: 8px;
+}
+.pagination-licon.on>a{background: url(../image/pagination_icon.png) 19px 0;}
+.pagination-ricon.on>a{background: url(../image/pagination_icon.png) 8px 0;}
+.p-new-detail-title{
+  margin: 0 40px;
+  text-align: center;
+  border-bottom: 1px solid #f7f7f7;
+  font-family: "微软雅黑";
+}
+.p-new-detail-content{
+  padding: 10px 40px;
+}
+.p-new-detail-title .dtitle{
+  font-size: 20px;
+  color: #5c6266;
+  margin-top: 26px;
+}
+.p-new-detail-title .dinfo{
+  font-size: 14px;
+  color: #bdc3c7;
+  margin: 13px 0 16px;
+}
