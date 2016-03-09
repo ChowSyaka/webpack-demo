@@ -1,6 +1,14 @@
 require("./../css/style.css");
 require("./../css/base.css");
 
+const React = require("react");
+const Reactdom = require("react-dom");
+
+ReactDOM.render(
+	<h1>qweq</h1>,
+	document.querySelector(".logo")
+);
+
 var $ = require('jquery');
 
 
